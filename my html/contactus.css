@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  width: 100%;
+  height: 52px;
+  background-image:linear-gradient(to right, #0f1954, #8591da);
+  position: fixed;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  display: block;
+  z-index: 1;
+}
+nav{
+  display: inline;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float:right;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:20px;
+}
+nav a:hover {
+  background-color: #0f395a;
+}
+nav a.active{
+  display:block;
+  background-color:rgb(255, 255, 255,.5 );
+}
+h1{
+  color:white;
+  font-style: italic;
+  display: inline;
+  font-size:40px;
+} 
+.header h1 a{
+  text-decoration: none;
+  color:white;
+}
+.frame{
+  display: inline-block;
+  color: black; 
+  border:solid 1px black;
+  width: 180px;
+  height: 100px;
+  position: relative;
+  top:50px;
+  padding: 30px;
+  margin: 30px;
+  text-align: center;
+  background-color: #ccabea;
+  box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+}
+.frame h1{
+  color: black;
+  font-style: normal;
+  font-size: 30px;
+}
+.back {
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:linear-gradient(to bottom ,blue , white);
+}
+.footer{
+  background-color:#e8e9f3
+  width:100%;
+  height: 200px;
+}
+.footer nav ul{
+  text-decoration:none;
+  text-align: center;
+}
+.footer nav li{
+  font-size: 30px;
+  text-decoration:none;
+  padding:5px;
+  margin-top:10px;
+  text-align:center;
+  list-style-type: none;
+  display: inline;
+  padding-right: 80px;
+  margin-right: 10px;
+  margin-top: 100px;
+}
+.footer ul li a{
+  color:black;
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+  display: flex;
+  font-size: 20px;
+}
+.footer a{
+  text-decoration: none;
+  font-size: 50px;
+  color:black;
+  text-align: center;
+}
